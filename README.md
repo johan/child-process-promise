@@ -74,7 +74,7 @@ spawn('echo', ['hello'], { capture: [ 'stdout', 'stderr' ]})
 ```
 
 #### print
-Type: `Array`  
+Type: `Array`
 Default: `[]`
 
 Pass an additional `print` option to **print automatically** the result of `stdout` and/or `stderr`
