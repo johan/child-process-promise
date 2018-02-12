@@ -26,6 +26,7 @@ declare module "child-process-promise" {
 
 	export interface ExtendOption {
 		capture?: ('stderr'|'stdout')[];
+		print?: ('stderr'|'stdout')[];
 		successfulExitCodes?: number[];
 	}
 
